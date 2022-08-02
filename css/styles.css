@@ -1,0 +1,109 @@
+:root {
+  --main-text-color: #4b321d;
+  --accent-text-color: #f1f1eb;
+  --main-background-color: #e5e5e5;
+  --secondary-background-color: #4b321d;
+}
+
+html {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*Body*/
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  margin: 0;
+}
+/*Header*/
+.link,
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 1400px;
+  padding: 0 15px;
+  outline: 2px solid red;
+  background-color: var(--main-background-color);
+}
+.page-header {
+  padding: 40px 60px 0 60px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 124px;
+}
+
+.logo-header {
+  display: flex;
+}
+.main-nav {
+  display: flex;
+  font-size: 18px;
+  line-height: 1.6;
+  padding-right: 283px;
+}
+.nav-item {
+  text-decoration: none;
+}
+.link:not(:last-child) {
+  margin-right: 36px;
+}
+/*Hero*/
+.hero {
+  margin-bottom: 90px;
+}
+.hero-title {
+  font-size: 80px;
+  line-height: 1.25;
+}
+.hero-image {
+  max-width: 1300px;
+  max-height: 928px;
+  display: inine-block;
+  margin: 0 auto;
+}
+/*My works*/
+.my-works {
+  margin-bottom: 90px;
+}
+.works-title {
+  font-size: 80px;
+  line-height: 1.25;
+  margin-bottom: 56px;
+}
+.button {
+  box-sizing: border-box;
+  border: 2px solid #4b321d;
+  border-radius: 3px;
+  padding: 11px 17px;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 1.44;
+  cursor: pointer;
+}
